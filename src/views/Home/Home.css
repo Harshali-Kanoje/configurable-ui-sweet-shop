@@ -1,5 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home-heading{
+    text-align: center;
+    background-color: rgba(113, 10, 10, 0.619);
+    color: white;
+    margin: 0;
+    padding: 20px ;
+}
 .home-img{
-    height: 90vh;
+    height: 45vw;
     width: 100%;
 }
 
@@ -10,9 +21,9 @@
 }
 
 .sweetProduct{
-    border: 2px solid aqua;
+    border: 2px solid rgba(113, 10, 10, 0.619);;
     border-radius: 10px;
     background-color: blanchedalmond;
-    padding: 30px;
-    margin: auto;
+    padding: 10px;
+    margin: 10px 30px;
 }

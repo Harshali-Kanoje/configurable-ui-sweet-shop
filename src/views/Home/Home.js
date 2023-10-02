@@ -8,17 +8,17 @@ const Home = () => {
   return (
     <div>
       <div>
-        <h1>{config.title}</h1>
+        <h1 className='home-heading'>{config.title}</h1>
         <img src={sweet} className='home-img'/>
-        <h2>{config.headign}</h2>
+        <h2 className='home-heading'>{config.headign}</h2>
         <div className='sweetProductContainer'>
             
             {
             config.services.map((sweetsData,index) => {
-                const {title , description , price , img} = sweetsData
+                const {name , weight , price , img} = sweetsData
                 return(
                     <div className='sweetProduct'>
-                        <Card title={title} description={description} price={price} img={img}/>
+                        <Card name={name} weight={weight} price={price} img={img}/>
                     </div>
                 )
             })

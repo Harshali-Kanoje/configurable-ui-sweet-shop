@@ -1,0 +1,14 @@
+.card-container img{
+height: 167px;
+width: 300px;
+}
+
+.card-container{
+margin: 20px;
+}
+
+.sweet-detail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
